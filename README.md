@@ -1,5 +1,5 @@
 # not another wedding video
-A website built w/ next.js for [notanotherweddingvideo.com](https://notanotherweddingvideo.com) 
+A website built w/ next for [notanotherweddingvideo.com](https://notanotherweddingvideo.com) 
 
 ## why?
 1. The **MOTIVATION** was to increase income by offering **DOCUMENTARY** wedding videos at SF City Hall, specifically, using **ANALOG** cameras
