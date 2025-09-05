@@ -12,8 +12,8 @@ export default function Home() {
         <div>
           <h3 className=" text-2xl font-semibold">Mixed Media</h3>
           <ul>
-            <li className="">hi-8</li>
-            <li className="">2013 camera</li>
+            <li className="">hi-8 (vhs)</li>
+            <li className="">2013 canon powershot</li>
             <li className="">35mm film photos</li>
             <li className="">iphone</li>
             <li className="">audio</li>
@@ -22,13 +22,16 @@ export default function Home() {
         <div>
           <h3 className=" text-2xl font-semibold">Documentary</h3>
           <ul>
-            <li className="">Having worked in Film Production in Los Angeles I offer something different</li>
-            <li className="">I'm a documentary filmmaker; <Link className="underline bold" href="https://onewaytix.film" target="_blank">one way tix</Link> (feature-length doc)</li>
-            <li className="">I want to tell your story, not just shoot a checklist of events</li>
-            <li className="">10 years of creating with cameras</li>
+            <li className="">Having worked in <Link className="" href="#" target="_blank">film production</Link> in <span className="font-bold">Los Angeles</span> I offer something different</li>
+            <li className="">I'm a documentary filmmaker</li>
+            <li>
+              <Link className="bold" href="https://onewaytix.film" target="_blank">one way tix</Link> (feature-length doc)
+            </li>
+            <li className="">I want to tell <span className="italic">your story</span>, not just shoot a checklist of events</li>
+            <li className=""><span className="font-bold">10 years</span> of creating with cameras</li>
             <li className="">Story structure</li>
             <li className="">I may ask to do a phone interview with you a week before to use in the edit</li>
-            <li className="">Interview guests, etc</li>
+            <li className="italic">Interview guests, etc</li>
           </ul>
         </div>
         <div>
