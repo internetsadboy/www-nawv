@@ -3,16 +3,33 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className=" flex flex-col min-h-screen p-8 pb-10 text-align-center gap-8">
-      <header className="flex  flex-col justify-center gap-4 row-start-1">
-        <h1 className=" text-4xl font-bold">NOT ANOTHER WEDDING VIDEO</h1>
-        <p>Not a checklist type of video</p>
+    <div className=" flex flex-col min-h-screen p-8 pb-10 text-align-center gap-4 sm:gap-8">
+      <header className="flex  flex-col justify-center sm:gap-2 row-start-1">
+        <h1 className="text-6xl font-bold">NOT ANOTHER WEDDING VIDEO</h1>
+        <div className="mt-6 sm:mt-2 gap-0">
+          <p className="text-lg">- Not a checklist type of video</p>
+          <p className="text-lg">- Mixed media, analog, documentary</p>
+        </div>
       </header>
       <main className=" flex flex-col gap-8">
-        <div>
-          <h3 className=" text-2xl font-semibold">Mixed Media</h3>
-          <ul>
-            <li className="">hi-8 (vhs)</li>
+        <div className="">
+          <ul className="m-0 p-0">
+            <li className="">
+            <h2 className="text-4xl font-semibold my-6">VHS</h2>
+             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full list-none">
+              <li>
+                <video className="block w-full h-auto" autoPlay muted loop playsInline src="/videos/vhs_clip_01_mobile.mp4" />
+              </li>
+              <li>
+                <video className="block w-full h-auto" autoPlay muted loop playsInline src="/videos/vhs_clip_02_mobile.mp4" />
+              </li>
+              <li>
+                <video className="block w-full h-auto" autoPlay muted loop playsInline src="/videos/vhs_clip_03_mobile.mp4" />
+              </li>
+            </ul>
+
+
+            </li>
             <li className="">2013 canon powershot</li>
             <li className="">35mm film photos</li>
             <li className="">iphone</li>
