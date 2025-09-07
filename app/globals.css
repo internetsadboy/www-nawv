@@ -33,3 +33,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.subtitle-bg {
+  background-color: darkcyan;
+  width: fit-content;
+  color: greenyellow;
+  padding: 0px 5px;
+}
+
+.block-item {  
+}
