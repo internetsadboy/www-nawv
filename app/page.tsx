@@ -31,7 +31,7 @@ export default function Home() {
             <li className="block-item">
               <h2 className="uppercase font-semibold text-4xl mt-6">Canon Powershot</h2>
               <p className="mt-2 pl-1 mb-6">Early 2000s camera</p>
-              <video className="block w-full sm:w-1/2 h-auto" autoPlay muted loop playsInline src="/videos/alaska/maggieb_linefishing.mov" />
+              <video className="block w-full sm:w-1/2 h-auto" autoPlay muted loop playsInline src="/videos/alaska/maggieb_linefishing.MOV" />
             </li>
             <li className="block-item">
               <h2 className="uppercase font-semibold text-4xl my-6">35mm Film Photos</h2>
