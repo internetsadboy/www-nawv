@@ -11,7 +11,7 @@ export default function Home() {
           <p className="text-lg">- Mixed media, analog, documentary</p>
         </div>
       </header>
-      <main className=" flex flex-col gap-8">
+      <main className="flex flex-col gap-8">
         <div className="">
           <ul className="m-0 p-0 gap-4">
             <li className="block-item">
@@ -52,45 +52,40 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <h3 className=" text-4xl font-semibold">ABOUT ME</h3>
-          <ul>
-            <li className="">- Having worked in <Link className="" href="#" target="_blank">film production</Link> in <span className="font-bold">Los Angeles</span> I offer something different</li>
-            <li className="">- I'm a documentary filmmaker</li>
-            <li>
-              <Link className="bold" href="https://onewaytix.film" target="_blank">- one way tix</Link> (feature-length doc)
+          <h3 className="text-4xl font-semibold">ABOUT ME</h3>
+          <ul className="mt-4 ml-2">
+            <li className="mt-1">- Jared Lamont</li>
+            <li className="mt-1">- Bay Area</li>
+            <li className="mt-1">- Doc Filmmaker</li>
+            <li className="mt-1">- Photographer</li>
+            <li className="mt-1">- Commercial Fisherman</li>
+            <li className="mt-1">- Tomato Sauce Pop-Up Curator</li>
+            <li className="mt-1">
+              <a href="https://onewaytix.film" target="_blank">- ONE WAY TIX</a>
             </li>
-            <li className="">- I want to tell <span className="italic">your story</span>, not just shoot a checklist of events</li>
-            <li className="">- <span className="font-bold">10 years</span> of creating with cameras</li>
-            <li className="">- Story structure</li>
-            <li className="">- I may ask to do a phone interview with you a week before to use in the edit</li>
-            <li className="italic">Interview guests, etc</li>
+             <li className="mt-1">
+              <a href="mailto:jaredlamont90@gmail.com">- Email</a>
+            </li>
           </ul>
+          <Image className="border ml-4 mt-4" width={100} height={200} src="/hardcountryselfie.jpeg" alt="About Me" />
         </div>
         <div>
-          <h3 className=" text-2xl font-semibold">Rates</h3>
-          <h3 className=" text-xl font-semibold">SF City Hall</h3>
-          <ul className=" flex flex-col list-disc list-inside">
-            <li>$1000 for event coverage</li>
-            <li className="">Highlight video (2-5 minutes)</li>
-            <li>50% deposit to book, balance due the day of the event</li>
+          <h3 className="text-4xl font-semibold">RATES & PKGS</h3>
+          <ul className="mt-4 ml-2">
+            <li className="mt-1">- <span className="italic font-semibold">Custom quotes</span> and options available</li>
+            <li className="mt-1">- No set packages</li>
+            <li className="mt-1">- Day rates starting at <span className="font-semibold">$1,000</span> [ No Editing ]</li>
+            <li className="mt-1">- Full-Coverage, 3-10 Minute <span className="font-semibold">Highlight Video</span>, starting at <span className="font-semibold">$3,000</span></li>
+            <li className="mt-1">- Travel fees may apply</li>
+            <li className="mt-1">- 50% <span className="font-semibold">retainer</span> to book</li>
+            <li className="mt-1">- <span className="font-semibold">Final payment</span> day of event</li>
           </ul>
-          <h3 className=" text-xl font-semibold">General</h3>
-          <ul className=" flex flex-col list-disc list-inside">
-            <li>$3500 for full day coverage (8 hours)</li>
-            <li className="">Highlight video (3-8 minutes), ceremony, speeches, footage on USB-drive</li>
-            <li>50% deposit to book, balance due the day of the event</li>
-          </ul>
-          <h3 className=" text-xl font-semibold">Budget-Friendly</h3>
-          <ul className=" flex flex-col list-disc list-inside">
-            <li>$1000 for full day coverage (8 hours)</li>
-            <li className="">No edit, just file transfer</li>
-            <li>50% deposit to book, balance due the day of the event</li>
-          </ul>
+          <p className="mt-4"></p>
         </div>
       </main>
-      <footer className=" row-start-3 flex gap-[24px] flex-wrap  justify-center">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap  justify-center">
         <div>
-          <h3 className=" text-2xl font-semibold">Footer</h3>
+          <h3 className="text-2xl font-semibold"></h3>
         </div>
       </footer>
     </div>
