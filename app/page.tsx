@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import CopyEmailButton from "./components/CopyEmailButton";
 
 export default function Home() {
   return (
@@ -92,15 +93,7 @@ export default function Home() {
             >  
             notanotherweddingvideo@gmail.com
           </Link>
-          <Link
-            className="mt-2 text-center text-lg inline-block no-underline rounded w-[100px] border border-gray-300 bg-gray-100 text-white px-3 py-2 text-color hover:bg-gray-100 active:scale-[0.99] transition"
-            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent("notanotherweddingvideo@gmail.com")}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{color:'black'}}
-          >
-          via gmail
-        </Link>
+          <CopyEmailButton email="notanotherweddingvideo@gmail.com" />
         </div>
       </footer>
     </div>
