@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className=" flex flex-col min-h-screen p-8 pb-10 text-align-center gap-4 sm:gap-8">
-      <header className="flex  flex-col justify-center sm:gap-2 row-start-1">
+    <div className="flex flex-col min-h-screen p-8 pb-10 text-align-center gap-4 sm:gap-8">
+      <header className="flex flex-col justify-center sm:gap-2 row-start-1 tracking-wide">
         <h1 className="text-6xl font-bold">NOT ANOTHER WEDDING VIDEO</h1>
         <div className="mt-6 sm:mt-2 gap-0">
           <p className="text-lg">- Not a checklist type of video</p>
@@ -83,9 +83,15 @@ export default function Home() {
           <p className="mt-4"></p>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap  justify-center">
+      <footer className="flex flex-col gap-[24px]">
         <div>
-          <h3 className="text-2xl font-semibold"></h3>
+          <h3 className="text-4xl font-semibold mb-4">CONTACT</h3>
+          <Link 
+            href="mailto:notanotherweddingvideo@gmail.com" 
+            className="text-xl sm:text-3xl underline"
+            >  
+            notanotherweddingvideo@gmail.com
+          </Link>
         </div>
       </footer>
     </div>
