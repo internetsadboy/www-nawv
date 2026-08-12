@@ -76,7 +76,7 @@ export default function Home() {
             <li className="mt-1">- <span className="italic font-semibold">Custom quotes</span> and options available</li>
             <li className="mt-1">- No set packages</li>
             <li className="mt-1">- Day rates starting at <span className="font-semibold">$1,000</span> [ No Editing ]</li>
-            <li className="mt-1">- Full-Coverage, 3-10 Minute <span className="font-semibold">Highlight Video</span>, starting at <span className="font-semibold">$3,000</span></li>
+            <li className="mt-1">- Full-Coverage, 3-10 Minute <span className="font-semibold">Highlight Video</span>, starting at <span className="font-semibold">$4,000</span></li>
             <li className="mt-1">- Travel fees may apply</li>
             <li className="mt-1">- 50% <span className="font-semibold">retainer</span> to book</li>
             <li className="mt-1">- <span className="font-semibold">Final payment</span> day of event</li>
