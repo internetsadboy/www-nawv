@@ -68,7 +68,12 @@ export default function Home() {
               <a href="mailto:jaredlamont90@gmail.com">- Email</a>
             </li>
           </ul>
-          <Image className="border ml-4 mt-4" width={200} height={200} src="/jl_profile_france_megeve_crop.png" alt="About Me" />
+          <Image 
+            width={200} 
+            height={200}
+            className="mt-4 block w-full sm:w-1/3 h-auto" 
+            src="/jl_profile_france_megeve_crop.png" 
+            alt="About Me" />
         </div>
         <div>
           <h3 className="text-4xl font-semibold">RATES & PKGS</h3>
